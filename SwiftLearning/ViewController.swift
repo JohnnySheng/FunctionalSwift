@@ -24,7 +24,7 @@ extension Position{
     func minus(_ p : Position) -> Position {
         return Position(x: x - p.x, y: y - p.y)
     }
-    var length:Double{
+    var length : Double{
         return sqrt(x*x + y*y)
     }
     
@@ -33,6 +33,7 @@ struct Ship {
     var position:Position
     var fireRange:Distance
     var unsafeRange:Distance
+    
 }
 
 extension Ship{
